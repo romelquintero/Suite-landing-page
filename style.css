@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Epilogue", sans-serif;
+  background-color: #faf8f6;
+}
+
+body {
+  font-size: 1.8rem;
+  color: #172339;
+  line-height: 3.2rem;
+  /* padding: 5.2rem 16.5rem 7.2rem 16.5rem; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5.2rem 16.5rem 0 16.5rem;
+}
+
+.logo {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+main {
+  padding: 0 16.5rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #172339;
+  color: #faf8f6;
+
+  border-radius: 0.6rem;
+
+  border: none;
+  margin: 5.2rem 0 9.1rem 0;
+  padding: 1.2rem 2.4rem;
+  cursor: pointer;
+
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.18px;
+  line-height: 3.2rem;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #172339;
+
+  border: 1px solid #172339;
+  border-radius: 0.6rem;
+  padding: 1.2rem 2.4rem;
+  cursor: pointer;
+
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.16px;
+  line-height: 3.2rem;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 6.8rem;
+}
+
+.hero-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 63.5rem;
+}
+
+.line-curve {
+  align-self: self-start;
+  padding-top: 4.56rem;
+  margin-left: 28.9rem;
+}
+
+h1 {
+  font-size: 7.2rem;
+  font-weight: 400;
+
+  margin-top: 2.13rem;
+  line-height: 7.8rem;
+  letter-spacing: -1px;
+}
+
+h1 span {
+  font-weight: 700;
+}
+
+.hero-box p {
+  width: 35rem;
+  letter-spacing: -0.1px;
+  color: #49566d;
+  margin-top: 4rem;
+}
+
+.hero-image-box {
+  position: absolute;
+  left: 47.4rem;
+  z-index: -1;
+}
+
+.hero-image-2 {
+  display: none;
+}
+
+.stats {
+  margin: 10.4rem 8rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6.3rem;
+}
+
+.stats p {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 5.6rem;
+  letter-spacing: -0.5px;
+}
+
+.stats span {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  letter-spacing: 2.5px;
+  color: #49566d;
+}
+
+/* Comments Section */
+
+.comments-section {
+  background-color: #172339;
+  color: #fff;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+
+  margin-top: 19.7rem;
+  height: 54.5rem;
+  border-radius: 1.5rem;
+}
+
+.comments-text-box {
+  width: 35rem;
+  margin-top: 8.95rem;
+}
+
+.man-pic {
+  position: absolute;
+  bottom: 0;
+  left: 12.14rem;
+  z-index: 2;
+}
+
+.blur-pic {
+  position: absolute;
+  bottom: -10rem;
+  z-index: 1;
+}
+
+.curve-line {
+  position: absolute;
+  left: 51.72rem;
+  top: 16.21rem;
+}
+
+.comments-title {
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  letter-spacing: -0.5px;
+  color: #faf8f6;
+}
+
+.comments-title span {
+  font-weight: 700;
+}
+
+.comments-paragraph {
+  font-size: 2rem;
+  line-height: 3.5rem;
+  color: #f3ede7;
+  margin-top: 4rem;
+}
+
+.comments-author {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -0.18px;
+  margin-top: 4rem;
+}
+
+.comments-author-comp {
+  /* font-weight: 400; */
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 0.25rem;
+}
+
+footer {
+  background-color: #f3ede7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 9.5rem 16.5rem 7.2rem 16.5rem;
+}
+
+footer::before {
+  content: " ";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f3ede7;
+  height: 46.4rem;
+  position: absolute;
+  pointer-events: none;
+  z-index: -1;
+}
+
+footer p {
+  font-weight: 1.5rem;
+  color: #49566d;
+  letter-spacing: 0.0833333px;
+}
+
+.footer-logo {
+  border: none;
+}
+
+.social-media-box {
+  display: flex;
+  gap: 2.8rem;
+}

@@ -1,0 +1,150 @@
+@media (max-width: 85em) {
+  html {
+    font-size: calc(23% + 0.390625vw);
+  }
+
+  header {
+    padding: 5.2rem 12.5rem 0 12.5rem;
+  }
+  main {
+    padding: 0 12.5rem;
+  }
+
+  footer {
+    padding: 9.5rem 12.5rem 7.2rem 12.5rem;
+  }
+
+  .comments-section {
+    /* margin-top: 15rem; */
+  }
+
+  .man-pic {
+    /* width: auto; */
+    height: 110%;
+  }
+
+  .hero-image {
+    width: 40rem;
+  }
+
+  .curve-line {
+    width: 5%;
+    /* height: auto; */
+  }
+
+  .line-curve {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 65em) {
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .stats {
+    margin: 15rem 0 0 0;
+
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 61em) {
+  .comments-section {
+    margin-top: 40rem;
+    height: 80.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 5.8rem;
+  }
+
+  .comments-text-box {
+    width: 100%;
+    text-align: center;
+    margin-top: 33rem;
+  }
+
+  .comments-pic-box {
+    position: absolute;
+  }
+
+  .man-pic {
+    /* width: auto; */
+    width: 25.2rem;
+    height: auto;
+    top: -27rem;
+    left: 5.7rem;
+    position: relative;
+  }
+
+  .blur-pic {
+    width: 50rem;
+    top: -27rem;
+    left: -7.5rem;
+  }
+
+  .curve-line {
+    width: 20%;
+    top: -15rem;
+    left: -12rem;
+    position: relative;
+  }
+
+  header {
+    padding: 5.2rem 9.5rem 0 9.5rem;
+  }
+  main {
+    padding: 0 9.5rem;
+  }
+
+  footer {
+    padding: 9.5rem 9.5rem 7.2rem 9.5rem;
+  }
+}
+
+@media (max-width: 43em) {
+  .hero-image {
+    width: 35rem;
+  }
+
+  .comments-section {
+    margin-top: 30rem;
+  }
+
+  header {
+    padding: 5.2rem 3.5rem 0 3.5rem;
+  }
+  main {
+    padding: 0 3.5rem;
+  }
+
+  footer {
+    padding: 9.5rem 3.5rem 7.2rem 3.5rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .hero-image-2 {
+    display: block;
+    width: 100%;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-image-box {
+    position: static;
+  }
+}
